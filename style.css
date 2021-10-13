@@ -1,0 +1,95 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#main{
+    text-align: center;
+    margin-top: 35px;
+}
+#main h1{
+    margin-bottom: .5rem;
+}
+#main p{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+#img-div{
+    background-color: whitesmoke;
+    padding: .1rem;
+}
+#img-div figure{
+    margin: 1rem;
+}
+#img-div figcaption{
+    margin-top: 1rem;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#tribute-info{
+    margin-bottom: 2.5rem;
+}
+#tribute-info ul{
+    text-align: left;
+}
+
+#tribute-info ul li{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.quote{
+    font-style: italic;
+}
+.quote-text{
+    font-size: 1.5rem;
+}
+.quote-author{
+    font-size: 1.3rem;
+}
+
+h2{
+    margin: 2.5rem auto;
+}
+
+#tribute-link{
+    color: cornflowerblue;
+}
+
+/* Estilos para pantallas mayores a 700px*/
+
+@media (min-width: 700px){
+    #tribute-info, .quote{
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+    #tribute-info{
+        margin-bottom: 2.5rem;
+    }
+}
+
+/* Estilos para pantallas mayores a 700px*/
+
+@media (min-width: 1000px){
+    #tribute-info, .quote{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    /* #tribute-info{
+        margin-bottom: 2.5rem;
+    } */
+
+    #img-div figure{
+        margin: 1.5rem 8rem;
+    }
+}
